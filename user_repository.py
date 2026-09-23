@@ -10,7 +10,7 @@ class JsonPlaceholderUserRepository:
 
 """
 class JsonPlaceholderUserRepository:
-    def get_user_email(self, user_id):
+    def get_user_email(self, user_id):  
         raise ConnectionError("User service unavailable")
 """
 
